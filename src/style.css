@@ -32,6 +32,12 @@ p {
   line-height: 1.5;
   margin: 0;
 }
+.about-link:hover {
+  color: var(--primary-color);
+}
+a:hover {
+  color: #ffffff;
+}
 
 .navigation-links {
   display: flex;
@@ -85,6 +91,7 @@ p {
 }
 
 .email-link:hover {
+  color: var(--primary-color);
   text-decoration: underline;
 }
 
