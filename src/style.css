@@ -29,15 +29,15 @@ h3 {
 
 p {
   font-size: 18px;
-  margin: 0;
   line-height: 1.5;
+  margin: 0;
 }
 
 .navigation-links {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
   margin-bottom: 48px;
+  margin-top: 40px;
 }
 
 .navigation-links a {
@@ -68,7 +68,7 @@ p {
   text-decoration: none;
 }
 
-.about-paragraphs {
+.about-paragraph {
   margin: 30px 0;
 }
 
@@ -92,4 +92,40 @@ p {
   position: fixed;
   top: 0;
   width: 100%;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 52px;
+  }
+  h2 {
+    font-size: 27px;
+  }
+  h3,
+  .email-link {
+    font-size: 19px;
+  }
+  p {
+    font-size: 14px;
+    text-align: justify;
+  }
+  .application-link,
+  .navigation-links a {
+    font-size: 14px;
+  }
+  .navigation-links {
+    margin-top: 10px;
+    margin-bottom: 18px;
+  }
+  .launch {
+    text-align: center;
+  }
+  .weather-application {
+    margin-bottom: 0 !important;
+  }
+  .about-images {
+    margin-bottom: 17px;
+  }
+  .about-paragraph {
+    margin: 20px 10px;
+  }
 }
