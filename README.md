@@ -12,9 +12,13 @@ Student project for SheCodes Responsive coding workshop.
 
 #### HTML
 
+- Multi-page design includes a home page and an about page with a contact section capable of opening the user's email client upon a single click
+
 - HTML elements: html, head, meta, link, script, title, body, nav, h1, h2, h3, p, ul, li, a, button, img, div, span
 
 - HTML attributes: alt, class, content, href, name, rel, src, title
+
+---
 
 #### CSS
 
@@ -22,17 +26,21 @@ Student project for SheCodes Responsive coding workshop.
 
 - CSS properties: background, border, border-radius, box-shadow, color, display, font-size, justify-content, line-height, margin, max-width, padding, position, text-align, text-decoration, text-transform, top, width
 
-- Bootstrap grid and responsive navbar (CSS & JavaScript)
+- Bootstrap grid and responsive navbar that converts to a hamburger menu on tablets and mobile devices. Bootstrap utility classes for responsive styling and to control the visibility or invisibility of content across devices
+
+---
 
 #### Accessibility, Design, & Workflow Considerations
 
-- Includes demo's media assets as placeholder images and reproduces the given design, thereby simulating a professional collaboration with a UX/UI designer
+- Includes demo's media assets as placeholder images and reproduces the given design, thereby simulating a professional collaboration with a UX/UI designer (see below for a link to the demo design)
 
 - Skilled use of Google Chrome's DevTools for debugging and prototyping changes in the browser. The toggle device tools were especially useful for testing the responsiveness of my code on devices of different sizes.
 
 - Coded in VS Code using professional development workflow tools such as Live Server and GitHub Desktop, with hosting on Netlify, implementing a process of continuous deployment
 
 - Includes this polished README, written using Markdown
+
+---
 
 ## Demo Design
 
